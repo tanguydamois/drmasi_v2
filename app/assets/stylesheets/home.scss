@@ -5,6 +5,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #ffffff;
+  color: #ffffff;
+  font: 18px/23px "Cantarell", sans-serif;
 }
 
 h1 {
@@ -27,4 +29,68 @@ h1 {
   vertical-align: middle;
 }
 
+.sub-title {
+    margin: 50px auto;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
 
+/* Special */
+.sub-title {
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #cafaea;
+  border: 1px solid #cafaea;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#more-content {
+  display: none;
+}
+
+blockquote {
+  display: block;
+  max-width: 480px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e1e1e1;
+  font-family: "Kotta One", serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+blockquote cite {
+  display: block;
+  font: 18px/23px "Cantarell", sans-serif;
+  font-size: 16px;
+  margin-top: 16px;
+  color: #cccccc;
+  text-transform: uppercase;
+}
+
+
+.doctolib_btn {
+    padding: 6px 10px;
+    color: #0596DE;
+    border: 1px solid #0596DE;
+    border-radius: 3px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
