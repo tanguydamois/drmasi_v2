@@ -1,14 +1,30 @@
-// Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+
 body {
   background-image: url('/assets/drmasi.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: black;
+  background-color: #ffffff;
 }
 
-a {
-  color: white;
+h1 {
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
 }
+
+.container{
+  display: table;
+  padding-top: 180px;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
