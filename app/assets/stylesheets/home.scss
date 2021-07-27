@@ -1,6 +1,5 @@
 
 body {
-  background-image: url('/assets/drmasi.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -93,4 +92,16 @@ blockquote cite {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media (min-width: 531px) {
+    body {
+      background-image: url('/assets/drmasi.png');
+   }
+}
+
+@media (max-width: 530px) {
+    body {
+        background-image: url('/assets/drmasi_mobile.png');
+    }
 }
