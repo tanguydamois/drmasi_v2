@@ -7,6 +7,9 @@
     align-items: center;
     padding: 1rem 1.5rem;
     border-bottom: 1px solid #E2E8F0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -66,3 +69,5 @@ a, .navbar {
     font-weight: 500;
     color: #ffffff;
 }
+
+
